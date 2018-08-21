@@ -6,9 +6,14 @@ let conf = {
     entry: './index.js',
     output: {
         path: `${__dirname}/dist/`,
-        filename: 'main.js',
-        publicPath: 'test'
-    }
+        filename: 'main.js'
+        //publicPath: 'test/'
+    },
+    /*,
+    devServer: {
+        overlay: true
+    }*/
+    devtool: 'source-map'
 };
  
 module.exports = conf;
