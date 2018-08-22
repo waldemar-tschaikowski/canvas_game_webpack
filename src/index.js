@@ -1,2 +1,2 @@
 
-var game = new Gamepad();
+var game = new Game();
