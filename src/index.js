@@ -1,2 +1,13 @@
+var game = {
+    MY_ControllerKey : null
+};
 
-var game = new Game();
+
+
+
+
+console.log('fdg');
+
+var test = require('./assets/js/actor.js');
+
+console.log(new test());

@@ -1,3 +1,6 @@
+//Wenn Sie eine globale Variable möchten, können Sie Folgendes tun:
+//global.logger = new logger(customConfig); das ist nodeJS
+
 let path = require('path');
 
 let conf = {

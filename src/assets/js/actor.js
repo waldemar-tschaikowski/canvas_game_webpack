@@ -11,3 +11,5 @@ function Actor () {
         console.log(obj);
     };
 }
+
+module.exports = Actor;
