@@ -1,12 +1,15 @@
-//Wenn Sie eine globale Variable möchten, können Sie Folgendes tun:
-//global.logger = new logger(customConfig); das ist nodeJS
+/*
+* npm run build
+*/
 
 let path = require('path');
 
 let conf = {
     //context: `${__dirname}/src/`,
     context: path.resolve(__dirname, 'src'),
-    entry: './index.js',
+    entry: {
+        index: './index.js'
+    },
     output: {
         path: `${__dirname}/dist/`,
         filename: 'main.js'
